@@ -10,7 +10,7 @@ const UsersList = ({ usersList, deleteUser, selectUser}) => {
                 {
                     usersList?.map( user => (
                         <li className="users-items" key={user.id}>
-                            <h4>{user.first_name} {user.last_name}</h4>
+                            <h2>{user.first_name} {user.last_name}</h2>
                             <p>
                             <b>Correo:</b><br /> {user.email}
                             </p>
