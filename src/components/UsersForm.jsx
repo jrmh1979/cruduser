@@ -88,7 +88,7 @@ function UsersForm ({ addUser, userSelected, editUser, closeModal }) {
                 <label htmlFor="birthday">Fecha de Nacimiento</label>
                 <input 
                 type="text" 
-                placeholder='aaaa/mm/dd'
+                placeholder='aaaa-mm-dd'
                 id="birthday" 
                 { ...register( "birthday" ) }
                 />
